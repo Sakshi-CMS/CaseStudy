@@ -33,9 +33,9 @@ public class LoginToApp extends TestBase  {
     }
 	public void Password() {
 		pass.sendKeys("Password@2");
-   }
+    }
 	public void Lbutton() {
-		Button.click();
+	 	Button.click();
 		
 			
 	}

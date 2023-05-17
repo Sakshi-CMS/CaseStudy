@@ -72,23 +72,23 @@ public class OrderDetails extends TestBase{
    public void Month() {
 	   month.sendKeys("April");
 	
-  }
-   public void Year() {
+   }
+    public void Year() {
 	     year.sendKeys("2023");
 	
    }
-   public void purchesButton() {
+    public void purchesButton() {
 	   puchesbtn.click();
 	 
    }
-   public void Tkalert(){
+    public void Tkalert(){
     String act = thanku.getText();
       System.out.println("Message "+act);
-  }
-   public void Thkyou() {
-        ok.click();
    }
-   public void logout() {
+    public void Thkyou() {
+        ok.click();
+    }
+    public void logout() {
        logout.click();
 }
 }

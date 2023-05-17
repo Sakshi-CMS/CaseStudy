@@ -31,7 +31,7 @@ public class PlaceOrderTest extends TestBase {
 		logintoapp.Lbutton();
 	}	  
      @Test(priority=2)
-    public void addItemTest() throws InterruptedException {
+     public void addItemTest() throws InterruptedException {
 	  addItem=new AddItemToCart();
 	  addItem.AddIteam1();
 	  addItem.AddIteamcart1();

@@ -178,8 +178,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testScripts.PlaceOrderTest&quot;/&gt;
     &lt;/classes&gt;
@@ -225,19 +225,19 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'PlaceOrderFromCart')
 data.setCell(0, 2, 'testScripts.PlaceOrderTest')
-data.setCell(0, 3, 25474);
+data.setCell(0, 3, 25687);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addItemTest')
 data.setCell(1, 2, 'testScripts.PlaceOrderTest')
-data.setCell(1, 3, 21217);
+data.setCell(1, 3, 21230);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'DeleteItemFromcart')
 data.setCell(2, 2, 'testScripts.PlaceOrderTest')
-data.setCell(2, 3, 14840);
+data.setCell(2, 3, 15080);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'LoginPage')
 data.setCell(3, 2, 'testScripts.PlaceOrderTest')
-data.setCell(3, 3, 4020);
+data.setCell(3, 3, 4049);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -275,23 +275,23 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">LoginPage</span>
-                <span class="method-start">12086 ms</span>
+                <span class="method-start">12660 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addItemTest</span>
-                <span class="method-start">16121 ms</span>
+                <span class="method-start">16750 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">DeleteItemFromcart</span>
-                <span class="method-start">37352 ms</span>
+                <span class="method-start">37981 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PlaceOrderFromCart</span>
-                <span class="method-start">52196 ms</span>
+                <span class="method-start">53062 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">77673 ms</span>
+                <span class="method-start">78752 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
