@@ -6,8 +6,8 @@
       <class name="testScripts.PlaceOrderTest">
         <methods>
           <include name="teardown"/>
-          <include name="setup"/>
           <include name="DeleteItemFromcart"/>
+          <include name="setup"/>
           <include name="PlaceOrderFromCart"/>
         </methods>
       </class> <!-- testScripts.PlaceOrderTest -->

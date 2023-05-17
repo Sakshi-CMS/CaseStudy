@@ -1,5 +1,6 @@
 package testScripts;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -10,6 +11,7 @@ import Pages.LoginToApp;
 import base.TestBase;
 
 public class PlaceOrderTest extends TestBase {
+
 	LoginToApp logintoapp;
 	AddItemToCart addItem;
 	DeleteItem deleteitem;

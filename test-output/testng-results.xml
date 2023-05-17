@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-17T12:50:07 IST" name="Suite" finished-at="2023-05-17T12:51:25 IST" duration-ms="78075">
+  <suite started-at="2023-05-17T14:43:27 IST" name="Suite" finished-at="2023-05-17T14:44:43 IST" duration-ms="76028">
     <groups>
     </groups>
-    <test started-at="2023-05-17T12:50:07 IST" name="Test" finished-at="2023-05-17T12:51:25 IST" duration-ms="78075">
+    <test started-at="2023-05-17T14:43:27 IST" name="Test" finished-at="2023-05-17T14:44:43 IST" duration-ms="76028">
       <class name="testScripts.PlaceOrderTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T12:50:07 IST" name="setup" finished-at="2023-05-17T12:50:19 IST" duration-ms="12002" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T14:43:27 IST" name="setup" finished-at="2023-05-17T14:43:39 IST" duration-ms="11289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginPage()[pri:1, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T12:50:19 IST" name="LoginPage" finished-at="2023-05-17T12:50:23 IST" duration-ms="4020" status="PASS">
+        <test-method signature="LoginPage()[pri:1, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T14:43:39 IST" name="LoginPage" finished-at="2023-05-17T14:43:43 IST" duration-ms="4416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPage -->
-        <test-method signature="addItemTest()[pri:2, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T12:50:23 IST" name="addItemTest" finished-at="2023-05-17T12:50:45 IST" duration-ms="21217" status="PASS">
+        <test-method signature="addItemTest()[pri:2, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T14:43:43 IST" name="addItemTest" finished-at="2023-05-17T14:44:03 IST" duration-ms="19943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemTest -->
-        <test-method signature="DeleteItemFromcart()[pri:3, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T12:50:45 IST" name="DeleteItemFromcart" finished-at="2023-05-17T12:50:59 IST" duration-ms="14840" status="PASS">
+        <test-method signature="DeleteItemFromcart()[pri:3, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T14:44:03 IST" name="DeleteItemFromcart" finished-at="2023-05-17T14:44:18 IST" duration-ms="14510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteItemFromcart -->
-        <test-method signature="PlaceOrderFromCart()[pri:4, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T12:50:59 IST" name="PlaceOrderFromCart" finished-at="2023-05-17T12:51:25 IST" duration-ms="25474" status="PASS">
+        <test-method signature="PlaceOrderFromCart()[pri:4, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T14:44:18 IST" name="PlaceOrderFromCart" finished-at="2023-05-17T14:44:43 IST" duration-ms="25340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PlaceOrderFromCart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T12:51:25 IST" name="teardown" finished-at="2023-05-17T12:51:25 IST" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T14:44:43 IST" name="teardown" finished-at="2023-05-17T14:44:43 IST" duration-ms="408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

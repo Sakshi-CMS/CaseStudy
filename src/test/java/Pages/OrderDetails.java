@@ -84,6 +84,7 @@ public class OrderDetails extends TestBase{
     public void Tkalert(){
     String act = thanku.getText();
       System.out.println("Message "+act);
+      //Assert.assertEquals(act, "Thank you for your purchase!");
    }
     public void Thkyou() {
         ok.click();
