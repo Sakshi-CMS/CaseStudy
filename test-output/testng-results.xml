@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-17T11:27:43 IST" name="Default suite" finished-at="2023-05-17T11:28:57 IST" duration-ms="74007">
+    <groups>
+    </groups>
+    <test started-at="2023-05-17T11:27:43 IST" name="Default test" finished-at="2023-05-17T11:28:57 IST" duration-ms="74007">
+      <class name="testScripts.PlaceOrderTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T11:27:43 IST" name="setup" finished-at="2023-05-17T11:27:54 IST" duration-ms="10571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginPage()[pri:1, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T11:27:54 IST" name="LoginPage" finished-at="2023-05-17T11:27:58 IST" duration-ms="3811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method signature="addItemTest()[pri:2, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T11:27:58 IST" name="addItemTest" finished-at="2023-05-17T11:28:18 IST" duration-ms="19717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemTest -->
+        <test-method signature="DeleteItemFromcart()[pri:3, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T11:28:18 IST" name="DeleteItemFromcart" finished-at="2023-05-17T11:28:32 IST" duration-ms="14610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteItemFromcart -->
+        <test-method signature="PlaceOrderFromCart()[pri:4, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T11:28:32 IST" name="PlaceOrderFromCart" finished-at="2023-05-17T11:28:57 IST" duration-ms="24697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderFromCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testScripts.PlaceOrderTest@2af004b]" started-at="2023-05-17T11:28:57 IST" name="teardown" finished-at="2023-05-17T11:28:57 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testScripts.PlaceOrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
